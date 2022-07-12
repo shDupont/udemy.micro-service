@@ -9,8 +9,6 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer
 @SpringBootApplication
 public class HrConfigServerApplication implements CommandLineRunner {
-
-
 	
 	public static void main(String[] args) {
 		SpringApplication.run(HrConfigServerApplication.class, args);
